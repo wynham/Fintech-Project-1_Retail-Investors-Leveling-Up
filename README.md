@@ -14,32 +14,27 @@ Part 2 - Intraday Data Displayed:
 
 Part 1:
 
-[fire](fire) - for the command line interface
-
-[questionary](questionary) - gives ability to interact with the user and recieve user input in program
-
-[sys](sys) - system-specific parameters and functions
-
-[csv](csv) - for reading and writing .csv files
+```python
+pip install fire
+pip install questionary
+pip install pytest
+```
 
 
 Part 2:
 
-[import pandas as pd](import pandas as pd) - for the command line interface
 
-[import plotly.express as px](import plotly.express as px) - gives ability to interact with the user and recieve user input in program
-
-[from alpha_vantage.timeseries import TimeSeries](from alpha_vantage.timeseries import TimeSeries) - system-specific parameters and functions
-
-[import dash](import dash) - for reading and writing .csv files
-
-[mport dash_core_components as dcc](mport dash_core_components as dcc)
-
-[import dash_html_components as html](import dash_html_components as html)
-
-[from dash.dependencies import Output, Input](from dash.dependencies import Output, Input)
-
-[import dash_bootstrap_components as dbc](import dash_bootstrap_components as dbc)
+```python
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+from alpha_vantage.timeseries import TimeSeries 
+import dash                               
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Output, Input
+import dash_bootstrap_components as dbc  
+```
 
 ---
 
