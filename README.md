@@ -63,9 +63,9 @@ pip install hvplot
 Part 2: 
 
 ```python
-pip install fire
-pip install questionary
-pip install pytest
+pip install dash
+pip install dash-bootstrap-components
+pip install alpha-vantage
 ```
 
 ---
@@ -89,6 +89,8 @@ pip install pytest
 
 
 ### Part 2
+
+
 
 ![created_csv_example.png](created_csv_example.png)
 
