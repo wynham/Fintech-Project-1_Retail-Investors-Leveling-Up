@@ -14,16 +14,6 @@ Part 2 - Intraday Data Displayed:
 
 Part 1:
 
-[json](json) - to interact with JSON files in Python
-[pandas](pandas) - Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both   easy and intuitive
-[path](path) - to find files and read them into the program
-[NumPy](NumPy) - NumPy is a Python library used for working with arrays
-[hvplot](hvplot) - to visualize data in interactive graphs.
-
-
-
-Part 2:
-
 [fire](fire) - for the command line interface
 
 [questionary](questionary) - gives ability to interact with the user and recieve user input in program
@@ -31,6 +21,18 @@ Part 2:
 [sys](sys) - system-specific parameters and functions
 
 [csv](csv) - for reading and writing .csv files
+
+
+Part 2:
+
+[import pandas as pd](import pandas as pd) - for the command line interface
+[import plotly.express as px](import plotly.express as px) - gives ability to interact with the user and recieve user input in program
+[from alpha_vantage.timeseries import TimeSeries](from alpha_vantage.timeseries import TimeSeries) - system-specific parameters and functions
+[import dash](import dash) - for reading and writing .csv files
+[mport dash_core_components as dcc](mport dash_core_components as dcc)
+[import dash_html_components as html](import dash_html_components as html)
+[from dash.dependencies import Output, Input](from dash.dependencies import Output, Input)
+[import dash_bootstrap_components as dbc](import dash_bootstrap_components as dbc)
 
 ---
 
@@ -41,12 +43,9 @@ Install the following in your conda dev environment
 Part 1:
 
 ```python
-pip install path
-pip install pandas
-pip install json
-pip install numpy
-pip install hvplot
-
+pip install fire
+pip install questionary
+pip install pytest
 ```
 Part 2: 
 
