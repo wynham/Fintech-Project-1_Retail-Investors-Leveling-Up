@@ -26,12 +26,19 @@ Part 1:
 Part 2:
 
 [import pandas as pd](import pandas as pd) - for the command line interface
+
 [import plotly.express as px](import plotly.express as px) - gives ability to interact with the user and recieve user input in program
+
 [from alpha_vantage.timeseries import TimeSeries](from alpha_vantage.timeseries import TimeSeries) - system-specific parameters and functions
+
 [import dash](import dash) - for reading and writing .csv files
+
 [mport dash_core_components as dcc](mport dash_core_components as dcc)
+
 [import dash_html_components as html](import dash_html_components as html)
+
 [from dash.dependencies import Output, Input](from dash.dependencies import Output, Input)
+
 [import dash_bootstrap_components as dbc](import dash_bootstrap_components as dbc)
 
 ---
