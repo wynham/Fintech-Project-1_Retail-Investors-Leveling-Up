@@ -38,7 +38,7 @@ pip install pytest
 
 ## Examples
 
-make sure you activate your conda dev environment (python 3.7) before running the code:
+make sure you activate your conda dev environment (python 3.8) before running the code:
 ```
 conda activate dev
 ```
@@ -63,7 +63,7 @@ The following csv file is created from this example:
 
 ## Contributors
 
-UCB Fintech Bootcamp, Wynham Guillemot 
+UCB Fintech Bootcamp, Gabriel Silva & Wynham Guillemot 
 
 ---
 
@@ -71,7 +71,7 @@ UCB Fintech Bootcamp, Wynham Guillemot
 
 MIT License
 
-Copyright (c) [2021] [UCB Fintech Bootcamp, Wyham Guillemot]
+Copyright (c) [2021] [UCB Fintech Bootcamp, Gabriel Silva & Wynham Guillemot]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
