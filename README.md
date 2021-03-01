@@ -8,11 +8,22 @@ Part 1 - Long term hitorical data:
 
 Part 2 - Intraday Data Displayed:
 
-
-
 ---
 
 ## Technologies
+
+Part 1:
+
+[fire](fire) - for the command line interface
+
+[questionary](questionary) - gives ability to interact with the user and recieve user input in program
+
+[sys](sys) - system-specific parameters and functions
+
+[csv](csv) - for reading and writing .csv files
+
+
+Part 2:
 
 [fire](fire) - for the command line interface
 
@@ -27,6 +38,15 @@ Part 2 - Intraday Data Displayed:
 ## Installation Guide
 
 Install the following in your conda dev environment
+
+Part 1:
+
+```python
+pip install fire
+pip install questionary
+pip install pytest
+```
+Part 2: 
 
 ```python
 pip install fire
