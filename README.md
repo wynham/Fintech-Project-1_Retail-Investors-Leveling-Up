@@ -5,6 +5,7 @@ The ease of access to company information for the average retail investor is rel
 Our goal was to create a dashboard where investors can see detailed company information all in one place. 
 
 ### This project is broken into two independent parts
+Due to time constraints, the code in each part functions independently of each other at this point. Long term, our goal is to bring part one and part two together, where users will be able to see a single dashboard with both long term and short term historical data in one place.
 
 Part 1 - Long term hitorical data:
 
@@ -81,7 +82,16 @@ data/daily_rate_sheet.csv
 
 ## Usage
 
-This image shows an example of an user entering their information in the loan qualifier application:
+### Part 1 
+-Open collect_data.ipynb first to collect the data from the api
+-Input the desired stock tickers in brackets within the get_financials function
+-After this code is ran a series of JSON files will be created on the users computer
+
+-Open import_data.ipynb to read the JSON files and manipulate the data
+-To return the desired financials input the stock ticker and statement you wish to pull as follows:  ret = get_financials([ticker], statement)
+-The desired data will now to returned to whatever variable the user equated it to and is ready to be turned into a data frame
+
+-Create a dataframe using Pandas to allow for data manipulation, analysis and visualization. 
 
 ![usage_example.png](usage_example.png)
 
