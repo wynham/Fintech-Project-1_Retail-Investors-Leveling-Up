@@ -49,9 +49,11 @@ Install the following in your conda dev environment
 Part 1:
 
 ```python
-pip install fire
-pip install questionary
-pip install pytest
+pip install path
+pip install pandas
+pip install json
+pip install numpy
+pip install hvplot
 ```
 Part 2: 
 
