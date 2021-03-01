@@ -11,7 +11,7 @@ Due to time constraints, the code in each part functions independently of each o
 This part of the project pulls historical financial statements directly from the Alpha Vantage API. The collect_data.ipynb is responsible for calling the API and extracting the data. The four functions at the beginning individually extract one financial statement. The get_financials function at the bottom allows the user to input any list of tickers to extract financial statement data in a JSON format. Once the JSON files are created the import_data.ipynb program is used to read in the JSON data and allows the user to extract any financial statement individually using the get_financials function. Now the user is free to create a dataframe with this data and engage in analysis and visualization.
 
 #### Part 2 - Intraday Data Displayed:
-
+Part 2 of this project pulls in most recent intraday data in from the Alpha Vantage API for whichever stock the User selects. Once the User saves and runs the code, the intraday movement of the stock is displayed in a DASH app. It displays 3 things: (1) the ticker that the User selected, (2) an indicator graph that displays the percent change in the stock over that day, and (3) a line graph that shows how the stock's price changed throughout the day. If the stock price finished higher at the end of the day, the indicator and line graph will be green, if not, they will be displayed in red. Furthermore, since the graphs are built using Plotly, the User can zoom into certain areas of the graph to get a closer look.
 
 ---
 
