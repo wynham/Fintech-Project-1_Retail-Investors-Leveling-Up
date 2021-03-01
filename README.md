@@ -7,7 +7,7 @@ Our goal was to create a dashboard where investors can see detailed company info
 ### This project is broken into two independent parts
 Due to time constraints, the code in each part functions independently of each other at this point. Long term, our goal is to bring part one and part two together, where users will be able to see a single dashboard with both long term and short term historical data in one place.
 
-Part 1 - Long term hitorical data:
+Part 1 - Long term hitorical data: This part of the project pulls historical financial statements directly from the Alpha Vantage API. The collect_data.ipynb is responsible for calling the API and extracting the data. The four functions at the beginning individually extract one financial statement. The get_financials function at the bottom allows the user to input any list of tickers to extract financial statement data in a JSON format. Once the JSON files are created the import_data.ipynb program is used to read in the JSON data and allows the user to extract any financial statement individually using the get_financials function. Now the user is free to create a dataframe with this data and engage in analysis and visualization.
 
 Part 2 - Intraday Data Displayed:
 
