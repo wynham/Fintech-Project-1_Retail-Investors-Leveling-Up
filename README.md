@@ -90,22 +90,20 @@ pip install alpha-vantage
 
 ### Part 2
 
+![usage_example_3.png](usage_example_3.png)
 
+![usage_example_4.png](usage_example_4.png)
 
-![created_csv_example.png](created_csv_example.png)
 
 ---
 
 ## Examples
 
-make sure you activate your conda dev environment (python 3.8) before running the code:
+make sure you activate your conda dev environment (python 3.8) before running the code, then intall all the required libraries so that the DASH app will work:
 ```
 conda activate dev
 ```
-When prompted for .csv file, enter the following for this program:
-```
-data/daily_rate_sheet.csv
-```
+After the dev environment is active, make your imports and follow the comment instructions in the code. Put your desired ticker in, run the code, and then navigate to the recomended Flask server to see the DASH app (http://127.0.0.1:3000/)
 
 ---
 
