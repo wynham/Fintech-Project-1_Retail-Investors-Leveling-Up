@@ -15,9 +15,13 @@ Part 2 - Intraday Data Displayed:
 Part 1:
 
 [json](json) - to interact with JSON files in Python
+
 [pandas](pandas) - Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both   easy and intuitive
+
 [path](path) - to find files and read them into the program
+
 [NumPy](NumPy) - NumPy is a Python library used for working with arrays
+
 [hvplot](hvplot) - to visualize data in interactive graphs.
 
 
