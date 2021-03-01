@@ -14,13 +14,12 @@ Part 2 - Intraday Data Displayed:
 
 Part 1:
 
-[fire](fire) - for the command line interface
+[json](json) - to interact with JSON files in Python
+[pandas](pandas) - Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both   easy and intuitive
+[path](path) - to find files and read them into the program
+[NumPy](NumPy) - NumPy is a Python library used for working with arrays
+[hvplot](hvplot) - to visualize data in interactive graphs.
 
-[questionary](questionary) - gives ability to interact with the user and recieve user input in program
-
-[sys](sys) - system-specific parameters and functions
-
-[csv](csv) - for reading and writing .csv files
 
 
 Part 2:
@@ -42,9 +41,12 @@ Install the following in your conda dev environment
 Part 1:
 
 ```python
-pip install fire
-pip install questionary
-pip install pytest
+pip install path
+pip install pandas
+pip install json
+pip install numpy
+pip install hvplot
+
 ```
 Part 2: 
 
