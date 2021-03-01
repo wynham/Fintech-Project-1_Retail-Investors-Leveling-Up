@@ -4,6 +4,8 @@ The ease of access to company information for the average retail investor is rel
 
 Our goal was to create a dashboard where investors can see detailed company information all in one place. 
 
+### This project is broken into two independent parts
+
 Part 1 - Long term hitorical data:
 
 Part 2 - Intraday Data Displayed:
