@@ -93,7 +93,7 @@ data/daily_rate_sheet.csv
 
 -Create a dataframe using Pandas to allow for data manipulation, analysis and visualization. 
 
-![usage_example.png](usage_example.png)
+![usage_example_1.png](usage_example_1.png)
 
 
 The following csv file is created from this example:
