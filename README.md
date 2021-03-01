@@ -68,18 +68,6 @@ pip install pytest
 
 ---
 
-## Examples
-
-make sure you activate your conda dev environment (python 3.8) before running the code:
-```
-conda activate dev
-```
-When prompted for .csv file, enter the following for this program:
-```
-data/daily_rate_sheet.csv
-```
----
-
 ## Usage
 
 ### Part 1 
@@ -95,10 +83,25 @@ data/daily_rate_sheet.csv
 
 ![usage_example_1.png](usage_example_1.png)
 
+![usage_example_2.png](usage_example_2.png)
 
-The following csv file is created from this example:
+
+### Part 2
 
 ![created_csv_example.png](created_csv_example.png)
+
+---
+
+## Examples
+
+make sure you activate your conda dev environment (python 3.8) before running the code:
+```
+conda activate dev
+```
+When prompted for .csv file, enter the following for this program:
+```
+data/daily_rate_sheet.csv
+```
 
 ---
 
