@@ -1,4 +1,4 @@
-# Fintech Project 1 - Retail Investors: Leveling Up
+# Fintech Project 1 - Stock Screener Project
 
 The ease of access to company information for the average retail investor is relatively limited. They might hear about a stock in the news or see trading charts that reflect price, but that information isn't usually available in the same place as long-term data/information about company. Our goal with this project is to bridge that gap. Our aim is to provide the average retail investor with long term data along with intraday charts in the same place, so they can make educated purchasing decisions on stocks.
 
